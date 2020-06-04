@@ -1,8 +1,16 @@
 #!/usr/bin/env python3
+import argparse
 import sys
 import re
 from cabocha.analyzer import CaboChaAnalyzer
 analyzer = CaboChaAnalyzer()
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--test', '-t', action="store_true")
+parser.add_argument('--develop', '-d', action="store_true")
+parser.add_argument('--verbose', '-v', action="store_true",
+                    help="show verbose output in testing")
+args = parser.parse_args()
 
 
 def cabocha_split(s):
@@ -37,6 +45,36 @@ def cabocha_split(s):
     return ret
 
 
+def trim_tail(block):
+    while block:
+        last_chunk = block[-1]
+        tokens = trim_last_chunk(last_chunk)
+        if tokens:
+            break
+        block = block[:-1]
+    if not block:
+        if args.develop:
+            print("all removed\n")
+        return []
+    block[-1].tokens = tokens
+    return block
+
+
+def trim_head(block):
+    while block:
+        fist_chunk = block[0]
+        tokens = trim_first_chunk(fist_chunk)
+        if tokens:
+            break
+        block = block[1:]
+    if not block:
+        if args.develop:
+            print("all removed\n")
+        return []
+    block[0].tokens = tokens
+    return block
+
+
 def main():
     data = sys.stdin.read()
     if not data.endswith("\n"):
@@ -44,10 +82,118 @@ def main():
 
     for line in data.split("\n"):
         print(line)
-        for block in cabocha_split(line):
+        for block in split_and_trim(line):
             s = "".join(x.surface for x in block)
             print(s)
         print()
+
+
+def split_and_trim(line):
+    result = []
+    for block in cabocha_split(line):
+        block = trim_tail(block)
+        block = trim_head(block)
+        if block:
+            result.append(block)
+    return result
+
+
+def test():
+    testdata = open("test/regroup_split.txt")
+    state = "WAIT_INPUT"
+    items = []
+    for line in testdata:
+        line = line.strip()
+        if line.startswith("#"):
+            continue
+        if not line:
+            if items:
+                print(
+                    f"for {input_data}:\n  did not get all answer, {items}")
+            state = "WAIT_INPUT"
+            continue
+        if state == "WAIT_INPUT":
+            input_data = line
+            items = ["".join(x.surface for x in block)
+                     for block in split_and_trim(line)]
+            if args.verbose:
+                print(input_data)
+                for x in items:
+                    print(x)
+                print()
+            state = "WAIT_EXPECTED"
+        else:
+            if items and items[0] == line:
+                # OK
+                items.pop(0)
+            elif not items:
+                # NG
+                print(
+                    f"for {input_data}:\n  got unexpected: {line}")
+
+            else:
+                # NG
+                print(
+                    f"for {input_data}:\n  expected: {line}, got: {items[0]}")
+                items = []
+
+
+def trim_last_chunk(chunk):
+    if args.develop:
+        print(chunk.tokens)
+    tokens = chunk.tokens
+    is_matched = False
+    longest_match = 0
+    for phr in LAST_TOKENS_TO_REMOVE:
+        phr = phr.split()
+        i = -1
+        for p in reversed(phr):
+            # print(i, p)
+            if -i == len(tokens) + 1:
+                break
+            if tokens[i].surface != p:
+                break
+            i -= 1
+        else:
+            if args.develop:
+                print(phr, i, "match!")
+            is_matched = True
+            if i < longest_match:
+                longest_match = i
+    if is_matched:
+        tokens = tokens[:longest_match+1]
+        if args.develop:
+            print(tokens)
+    return tokens
+
+
+def trim_first_chunk(chunk):
+    if args.develop:
+        print(chunk.tokens)
+    tokens = chunk.tokens
+    is_matched = False
+    longest_match = -1
+    for phr in FIRST_TOKENS_TO_REMOVE:
+        phr = phr.split()
+        i = 0
+        for p in phr:
+            # print(i, p)
+            if i == len(tokens):
+                break
+            if tokens[i].surface != p:
+                break
+            i += 1
+        else:
+            if args.develop:
+                print(phr, "match!")
+            is_matched = True
+            if i > longest_match:
+                longest_match = i
+    if is_matched:
+        tokens = tokens[longest_match:]
+        if args.develop:
+            print(tokens)
+    return tokens
 
 
 # if the join of last tokens in a chunk is in this list, remove it
@@ -107,8 +253,20 @@ LAST_TOKENS_TO_REMOVE = """
 し て い た の だ
 する 。
 こと とか 、
-という  意味 で は
-って  思う の 、
+という 意味 で は
+って 思う の 、
+の だ けど 、
+から
+」 を
+」 は
+よ ね
+な の だ な
+で
+かも
+で は
+の か ？
+けど
+ので
 """.strip().splitlines()
 
 FIRST_TOKENS_TO_REMOVE = """
@@ -129,9 +287,10 @@ FIRST_TOKENS_TO_REMOVE = """
 それ は
 そうすると
 あ
+そこ の
 """.strip().splitlines()
 
-# REPLACE
+# memo for REPLACE, not implemented yet
 """
 ある わけ じゃ なく て > ない
 やる の で は なく > やらない
@@ -149,139 +308,51 @@ FIRST_TOKENS_TO_REMOVE = """
 """
 
 
-def trim_last_chunk(chunk):
-    print(chunk.tokens)
-    tokens = chunk.tokens
-    is_matched = False
-    longest_match = 0
-    for phr in LAST_TOKENS_TO_REMOVE:
-        phr = phr.split()
-        i = -1
-        for p in reversed(phr):
-            # print(i, p)
-            if -i == len(tokens) + 1:
-                break
-            if tokens[i].surface != p:
-                break
-            i -= 1
-        else:
-            print(phr, "match!")
-            is_matched = True
-            if i < longest_match:
-                longest_match = i
-            # tokens = tokens[:i+1]
-            # break
-    if is_matched:
-        tokens = tokens[:longest_match+1]
-        print(tokens)
-    return tokens
-
-
-def trim_first_chunk(chunk):
-    print(chunk.tokens)
-    tokens = chunk.tokens
-    is_matched = False
-    longest_match = -1
-    for phr in FIRST_TOKENS_TO_REMOVE:
-        phr = phr.split()
-        i = 0
-        for p in phr:
-            # print(i, p)
-            if i == len(tokens):
-                break
-            if tokens[i].surface != p:
-                break
-            i += 1
-        else:
-            print(phr, "match!")
-            is_matched = True
-            if i > longest_match:
-                longest_match = i
-            # tokens = tokens[:i+1]
-            # break
-    if is_matched:
-        tokens = tokens[longest_match:]
-        print(tokens)
-    return tokens
-
-
 """
 自分の思考のバイアスを改めて痛感したんだけど、ゲーム時間制限条例が作られた結果、実際にゲーム時間が減少していることがデータで示された、と聞いて最初におもったのは「おっ、ゲームの影響を知ることができる大規模社会実験だ」というポジティブな気持ちだった。
 「自分以外の一部の人間が権利を剥奪されること」のマイナスと「文明が知識を手に入れること」のプラスとで後者を大きく見積もりがちなのだな。
 でもって、この件に関して権利を剥奪された側の高校生が自治体を訴えたニュースを見ると「いいぞいいぞ！」って思うの、別に高校生の権利が回復されることに興味があるわけじゃなくて、高校生による提訴って「実験」が行われたこととその「実験結果」に興味があるのだな、と思った
     逆に言えば「部分的再描画できるようにしたいなぁ」の件に関しては、今僕がやるのではなくRecoilチームの成果が出てきてから乗り換えるのが良さそう
-生身の時も、無意識にグループ化を行なっていた。それを外在化したのがKJ法、電子化することによって近年の情報処理の技術を応用できるようにすることによって、人間の知能を強化するのが今作りつつあるやつ。
 """
 
-"""
-Xって思うの、
-Xという意味では
-その過程でX
-その結果、X
-逆にX
-"""
-
-"""
-Xと思った
-本質的にX
-Xだと僕は考えていた
-Xなのに、
-そういうX
-これはX
-Xなのは
-これがX
-本質的なX
-Xであって
-Xなのだな。
-Xなのだ
-それはX
-Xなのに
-Xしていた。
-Xしていたのだな
-Xしていたのだ
-そのX
-Xする。
-そうするとX
-あ、これX
-Xこととか、
-Xことに
-Xしたんだけど、
-Xだった。
-でもって、X
-"""
 
 if __name__ == "__main__":
-    # main()
-    sample_lines = """
-    """.strip().splitlines()
+    if args.develop:
+        sample_lines = """
+Xという意味では
+""".strip().splitlines()
 
-    for line in sample_lines:
-        for block in cabocha_split(line):
-            print("  ".join(" ".join(x.surface for x in chunk)
-                            for chunk in block))
-            while block:
-                last_chunk = block[-1]
-                tokens = trim_last_chunk(last_chunk)
-                if tokens:
-                    break
-                block = block[:-1]
-            if not block:
-                print("all removed\n")
-                continue
-            block[-1].tokens = tokens
+        for line in sample_lines:
+            for block in cabocha_split(line):
+                print("  ".join(" ".join(x.surface for x in chunk)
+                                for chunk in block))
+                while block:
+                    last_chunk = block[-1]
+                    tokens = trim_last_chunk(last_chunk)
+                    if tokens:
+                        break
+                    block = block[:-1]
+                if not block:
+                    print("all removed\n")
+                    continue
+                block[-1].tokens = tokens
 
-            while block:
-                fist_chunk = block[0]
-                tokens = trim_first_chunk(fist_chunk)
-                if tokens:
-                    break
-                block = block[1:]
-            if not block:
-                print("all removed\n")
-                continue
-            block[0].tokens = tokens
+                while block:
+                    fist_chunk = block[0]
+                    tokens = trim_first_chunk(fist_chunk)
+                    if tokens:
+                        break
+                    block = block[1:]
+                if not block:
+                    print("all removed\n")
+                    continue
+                block[0].tokens = tokens
 
-            print(
-                "".join(x.surface for x in block)
-            )
-            print()
+                print(
+                    "".join(x.surface for x in block)
+                )
+                print()
+    elif args.test:
+        test()
+    else:
+        main()
