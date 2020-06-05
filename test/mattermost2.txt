@@ -1,0 +1,448 @@
+話そう
+nishio profile image	
+nisbot
+BOT
+午後11:36
+あなたはこの会話で何が起きて欲しいですか？
+nishio profile image	
+nishio
+午後11:36
+Regroupのために長文を分割する機能を実装したんだけど、これってこのチャットシステムとの連携に有益なんじゃないかと思うので、話して頭を整理したい
+nishio profile image	
+nisbot
+BOT
+午後11:36
+そのチャットシステムについて、他に何かありますか？
+nishio profile image	
+nishio
+午後11:36
+質問をすることで言語化を促す
+nishio profile image	
+nisbot
+BOT
+午後11:36
+その言語化は、どんな種類の言語化ですか？
+nishio profile image	
+nishio
+午後11:38
+長文分割の機能とチャットシステムの言語化の機能に、何かつながりがありそうな気がしているが、それが何であるかをまだ言葉にできてなくて、それを言葉にすること
+nishio profile image	
+nisbot
+BOT
+午後11:38
+あなたはそのチャットシステムをどう知るのですか？
+nishio profile image	
+nishio
+午後11:38
+NG
+nishio profile image	
+nisbot
+BOT
+午後11:38
+そのチャットシステムは、どのあたりにありますか？
+nishio profile image	
+nishio
+午後11:38
+ここにある
+nishio profile image	
+nisbot
+BOT
+午後11:38
+長文分割の機能とチャットシステムの言語化の機能に、何かつながりがありそうな気がしているが、それが何であるかをまだ言葉にできてなくて、それを言葉にすること
+このチャットシステムは、どこにありますか？
+nishio profile image	
+nishio
+午後11:42
+あー、なるほど、そういう意味ではチャットシステムが先にあって、チャットシステムの質問によって引き出された回答が長文分割で刻まれる
+nishio profile image	
+nisbot
+BOT
+午後11:42
+そのチャットシステムは、どんな種類のチャットシステムですか？
+nishio profile image	
+nishio
+午後11:42
+うーん、遊びではなくガチで業務上の有益さがあるチャットシステムかな
+nishio profile image	
+nisbot
+BOT
+午後11:42
+そのガチについて、他に何かありますか？
+nishio profile image	
+nishio
+午後11:43
+NG
+nishio profile image	
+nisbot
+BOT
+午後11:43
+そのガチは、どんな種類のガチですか？
+nishio profile image	
+nishio
+午後11:43
+(あれ、抑制されなかっけ
+NGKW
+nishio profile image	
+nisbot
+BOT
+午後11:43
+その業務上について、他に何かありますか？
+nishio profile image	
+nishio
+午後11:44
+経済的な利益を発生させることができるといいよね
+nishio profile image	
+nisbot
+BOT
+午後11:44
+その利益について、他に何かありますか？
+nishio profile image	
+nishio
+午後11:44
+顧客に利益が発生すれば、その利益のいくらかを対価として受け取ることができて、開発が加速する
+nishio profile image	
+nisbot
+BOT
+午後11:44
+あなたはその利益をどう知るのですか？
+nishio profile image	
+nishio
+午後11:46
+うーん、厳しい。確かに知りようがないね。顧客の継続利用に有料プランを用意して、それを使い続けてくれるなら払い続けるに足る利益が顧客に生まれてると推測できるだろう。
+nishio profile image	
+nisbot
+BOT
+午後11:46
+その利益は、どんな種類の利益ですか？
+nishio profile image	
+nishio
+午後11:46
+金銭的利益を最初はイメージしていたけど、もっと広く、顧客の満足感とか、知的な楽しさなどを含む概念
+nishio profile image	
+nisbot
+BOT
+午後11:46
+その利益は、どのあたりにありますか？
+nishio profile image	
+nishio
+午後11:47
+わからない、顧客の手元？
+nishio profile image	
+nisbot
+BOT
+午後11:47
+その顧客について、他に何かありますか？
+nishio profile image	
+nishio
+午後11:48
+なんか顧客と利益の話になっちゃってるけど、今のところまだ商用プランは予定してないので、当面は僕と限られたベータテスターぐらい。あと、掘り下げたかった長文分割の話に戻って欲しい
+nishio profile image	
+nisbot
+BOT
+午後11:48
+あなたが価値を感じているのは何ですか？
+nishio profile image	
+nishio
+午後11:49
+ここでこの質問かー、長文分割についての掘り下げが足りないと思うけど…。長文分割機能に価値を感じてて、それを掘り下げにきたわけなのだが…
+nishio profile image	
+nisbot
+BOT
+午後11:49
+あなたはその長文分割をどう知るのですか？
+nishio profile image	
+nishio
+午後11:50
+今はチャットの形なのでただの長文なんだけど、これが分割されて付箋になって画面に配置されていくと良いと思う
+nishio profile image	
+nisbot
+BOT
+午後11:50
+チャットシステムと長文分割の関係は何ですか？
+nishio profile image	
+nishio
+午後11:51
+(スマホでは使いにくくなるけど)
+チャットシステムからのフィードバックは今は質問の文字列の形でしかないのだけど、長文分割して付箋になって画面に配置されると、人間はそれを動かすことで頭の整理ができるし、チャットシステムが特定のキーワードに注目させるときも付箋をハイライトしたりできる
+nishio profile image	
+nisbot
+BOT
+午後11:52
+そのチャットシステムと、長文分割とは同じですか？違いますか？
+nishio profile image	
+nishio
+午後11:53
+(なるほど、ここまでの連携はまだ考えてなかった)
+nishio profile image	
+nishio
+午後11:59
+(この同じですか違いますか質問はよくないので直そうと今日思いついたところだった)
+今日
+このチャットシステムと長文分割の関係はどのようなものですか？チャットではない別の表示システムがあって、長文分割を通してそちらへデータを流せるようになるのだ
+nishio profile image	
+nisbot
+BOT
+午前0:00
+そのチャットシステムは、何のようですか？
+nishio profile image	
+nishio
+午前0:04
+今までのチャットシステムはカウンセラーと口頭で話してるみたいなものだった。さっき思いついた連携を取り込んだ後は、ホワイトボードを使って議論を整理してくれるファシリテーターとかコンサルタントみたいな感じになる
+nishio profile image	
+nisbot
+BOT
+午前0:04
+そのチャットシステムの時、長文分割に何が起こりますか？
+nishio profile image	
+nishio
+午前0:06
+今ローカルスクリプトとして動いてるけどweb APIになるべきだね
+nishio profile image	
+nisbot
+BOT
+午前0:06
+長文分割の時、チャットシステムに何が起こりますか？
+nishio profile image	
+nishio
+午前0:08
+こっちはもっと大幅な変更が必要。チャットボットの形のままで良いのかも疑問。ホワイトボードシステムに組み込んだ方がいいかも？一方でスマホからの使いやすさって点では今の形がホワイトボードよりも良い
+nishio profile image	
+nisbot
+BOT
+午前0:08
+チャットシステムと長文分割の間には何がありますか？
+nishio profile image	
+nishio
+午前0:09
+チャットシステム単体でも使いたいし、ホワイトボードと接続しても使いたいので、疎結合にして切り替えられるようにして、なんなら事後的に接続できる仕組みが必要だ
+nishio profile image	
+nisbot
+BOT
+午前0:09
+そのチャットシステムと利益の関係は何ですか？
+nishio profile image	
+nishio
+午前0:17
+世の中の商業的なチャットシステムは、だいたい企業の側がデータをあらかじめ用意して、その企業の顧客がチャットシステムに質問し、回答を得る仕組みなのだが、このシステムはデータの用意が必要なくて、チャットシステムが質問をして、データが事後的に溜まるのだ。今の実装だと一回のセッションで消去されるけど、これが企業内でずっと蓄積し共有できるようになるとさらに面白いことが起こるかもしれない。つまりこれはグループウェアのビジネスモデルな訳だ。
+nishio profile image	
+nisbot
+BOT
+午前0:17
+そのチャットシステムと顧客の関係は何ですか？
+nishio profile image	
+nishio
+午前0:18
+顧客がいなければ僕一人がユーザーで、趣味でのんびり開発することになる。顧客がいると、より新機能追加よりも安定性を重視することになる。個人的には楽しくないと思うが、顧客がついて支払いがあるとプロジェクトが加速する側面もある。
+nishio profile image	
+nisbot
+BOT
+午前0:18
+その顧客と、チャットシステムとは同じですか？違いますか？
+nishio profile image	
+nishio
+午前0:19
+違います。あえていうならチャットシステムを「人を含めた知的生産システム」と見た場合は顧客はチャットシステムの部品だけども。
+nishio profile image	
+nisbot
+BOT
+午前0:19
+そのチャットシステムの時、顧客に何が起こりますか？
+nishio profile image	
+nishio
+午前0:20
+使うことによって知的生産性が高まるといいですね
+nishio profile image	
+nisbot
+BOT
+午前0:20
+顧客の時、チャットシステムに何が起こりますか？
+nishio profile image	
+nishio
+午前0:20
+支払いによって開発が加速する
+nishio profile image	
+nisbot
+BOT
+午前0:20
+チャットシステムと顧客の間には何がありますか？
+nishio profile image	
+nishio
+午前0:20
+信頼関係？
+nishio profile image	
+nisbot
+BOT
+午前0:20
+チャットシステムと、利益とは同じですか？違いますか？
+nishio profile image	
+nishio
+午前0:21
+違う。あえていうなら、利益はチャットシステムを成長させるための餌である
+nishio profile image	
+nisbot
+BOT
+午前0:21
+そのチャットシステムの時、利益に何が起こりますか？
+nishio profile image	
+nishio
+午前0:21
+顧客のビジネスが加速されて顧客の得る利益が増えて欲しい
+nishio profile image	
+nisbot
+BOT
+午前0:21
+その利益の時、チャットシステムに何が起こりますか？
+nishio profile image	
+nishio
+午前0:22
+支払いで加速するだけじゃなくて「このアイデアはこのシステムを使って生み出されました」って事例を提供してもらえると良い
+nishio profile image	
+nisbot
+BOT
+午前0:22
+チャットシステムと利益の間には何がありますか？
+nishio profile image	
+nishio
+午前0:22
+正のフィードバックだね。
+nishio profile image	
+nisbot
+BOT
+午前0:22
+そのフィードバックとチャットシステムの関係は何ですか？
+nishio profile image	
+nishio
+午前0:23
+正のフィードバックが成長の原動力
+nishio profile image	
+nisbot
+BOT
+午前0:23
+そのフィードバックと、チャットシステムとは同じですか？違いますか？
+nishio profile image	
+nishio
+午前0:23
+違う、あえて言うなら成長の加速度だ
+nishio profile image	
+nisbot
+BOT
+午前0:24
+その成長とチャットシステムの関係は何ですか？
+nishio profile image	
+nishio
+午前0:25
+確かに、成長はチャットシステムに必須なものではないな。どんどん機能追加するよりも、たとえばリファクタリングしたり、別のコードベースに移植したりとかして、成長ではなく長生きのためにリソースを使う選択肢もある。
+nishio profile image	
+nisbot
+BOT
+午前0:25
+そのチャットシステムは、どこから来るのですか？
+nishio profile image	
+nishio
+午前0:25
+僕が作ってます
+nishio profile image	
+nisbot
+BOT
+午前0:25
+その僕とチャットシステムの関係は何ですか？
+nishio profile image	
+nishio
+午前0:26
+チャットシステムを作って使うことによって僕の知的生産性が向上する
+nishio profile image	
+nisbot
+BOT
+午前0:26
+そのチャットシステムと、僕とは同じですか？違いますか？
+nishio profile image	
+nishio
+午前0:27
+ある意味かなり近い。僕が習得したカウンセリングの技術をプログラムにして、また今度僕のコンサルティングの技術をプログラムにして、とやってくわけだから。僕のサブセットを電子化してる感じ
+nishio profile image	
+nisbot
+BOT
+午前0:27
+その僕の時、チャットシステムに何が起こりますか？
+nishio profile image	
+nishio
+午前0:30
+僕によって生まれて、成長するよね。
+nishio profile image	
+nisbot
+BOT
+午前0:30
+その僕とチャットシステムの間には何がありますか？
+nishio profile image	
+nishio
+午前0:30
+なんだろう。「もっと育ってくれる、そして僕を助けてくれる」という期待かな
+nishio profile image	
+nisbot
+BOT
+午前0:31
+チャットシステムの時、僕に何が起こりますか？
+nishio profile image	
+nishio
+午前0:34
+僕の知的生産性が向上する
+nishio profile image	
+nisbot
+BOT
+午前0:34
+その知的生産性とチャットシステムの関係は何ですか？
+nishio profile image	
+nishio
+午前0:34
+知的生産性が向上するとチャットシステムの機能も向上する
+nishio profile image	
+nisbot
+BOT
+午前0:35
+そのチャットシステムと、知的生産性とは同じですか？違いますか？
+nishio profile image	
+nishio
+午前0:35
+人間とチャットシステムを組み合わせた知的生産システムが知的生産してる
+nishio profile image	
+nisbot
+BOT
+午前0:35
+そのチャットシステムの時、知的生産性に何が起こりますか？
+nishio profile image	
+nishio
+午前0:41
+人間とチャットシステムの組み合わせが知的生産をするようになった上で、その力でシステムをどんどん改善していって、人間がだんだん弱っていくのをシステムが肩代わりした挙句に人間が死んだ時、何が残るのか…
+nishio profile image	
+nisbot
+BOT
+午前0:41
+そのチャットシステムと知的生産性の間には何がありますか？
+nishio profile image	
+nishio
+午前0:41
+融合だね
+nishio profile image	
+nisbot
+BOT
+午前0:41
+知的生産性の時、チャットシステムに何が起こりますか？
+nishio profile image	
+nishio
+午前0:41
+そろそろ飽きたのでバイバイ
+nishio profile image	
+nisbot
+BOT
+午前0:42
+チャットシステムの時、フィードバックに何が起こりますか？
+nishio profile image	
+nishio
+午前0:42
+バイバイ
+このシステム、途中は割と盛り上がるのだけど終わり方がやっぱりイマイチなんだよなー
+午前0:44
+
+
+
+今日の面白ポイントは、「ホワイトボードシステムと繋いだらいい」「カウンセラーからファシリテーターに変わる」「利益はシステムの長生きに使う」あたりだな
