@@ -98,7 +98,7 @@ def split1(tokens):
     ret = []
     buf = []
     for t in tokens:
-        if t.word in "、。「」()！":
+        if t.word in "、。「」()！[]":
             ret.extend(split2(buf))
             buf = []
         else:
@@ -180,19 +180,46 @@ def main():
         line = line.strip()
         print(f"\n> {line}")
         tokens = tokenize(line)
-        print(tokens)
+        print(">", concat_tokens(tokens, " "))
         for ts in split1(tokens):
             print(concat_tokens(ts))
 
 
-T1 = """
+def initiate_regression_test():
+    import json
+    result = []
+    for line in open("test/simplelines1.txt"):
+        line = line.strip()
+        tokens = tokenize(line)
+        obj = {
+            "input": line,
+            "splits": [
+                concat_tokens(ts) for ts in split1(tokens)],
+            "comment": ""
+        }
+        result.append(obj)
+    json.dump(
+        result,
+        open("test/regression_test.json", "w"),
+        ensure_ascii=False,
+        indent=2
+    )
 
-"""
-_TEST_T1 = """
->>> as_input(T1)
->>> main()
-result
-"""
+
+def regression_test():
+    import json
+    result = json.load(open("test/regression_test.json"))
+    for i, line in enumerate(open("test/simplelines1.txt")):
+        line = line.strip()
+        tokens = tokenize(line)
+        splits = [
+            concat_tokens(ts) for ts in split1(tokens)]
+
+        expected = result[i]["splits"]
+        if expected != splits:
+            print(">", line)
+            print("expected:", expected)
+            print("actual:", splits)
 
 
 def _test():
@@ -203,6 +230,8 @@ def _test():
         if k.startswith("TEST_"):
             print(k)
             doctest.run_docstring_examples(g[k], g, name=k)
+
+    regression_test()
 
 
 if __name__ == "__main__":

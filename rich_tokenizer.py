@@ -2,15 +2,11 @@
 rich tokernizer
 split to tokens with rich informarion
 
->>> tokenize("情報共有")
-[情報, 共有]
+>>> concat_tokens(tokenize("Hello world"))
+'Hello world'
 """
 import MeCab
-if not"Use neologd":
-    DICT = '-d /Users/nishio/nishiojr/bookpdf_to_text/mecab-ipadic-neologd/build/mecab-ipadic-2.7.0-20070801-neologd-20180920/ '
-    mecab = MeCab.Tagger(DICT)
-else:
-    mecab = MeCab.Tagger()
+mecab = MeCab.Tagger()
 mecab.parse('')  # 文字列がGCされるのを防ぐ
 
 
