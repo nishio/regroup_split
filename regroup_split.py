@@ -187,6 +187,29 @@ def regression_test():
             print("actual:", splits)
 
 
+def update_regression_test():
+    import json
+    result = json.load(open("test/regression_test.json"))
+    lines = open("test/simplelines1.txt").readlines()
+    for i in range(len(result), len(lines)):
+        line = lines[i]
+        tokens = tokenize(line)
+        calc_split_priority(tokens)
+        obj = {
+            "input": line,
+            "splits": [
+                concat_tokens(ts) for ts in split(tokens)],
+            "comment": ""
+        }
+        result.append(obj)
+    json.dump(
+        result,
+        open("test/regression_test.json", "w"),
+        ensure_ascii=False,
+        indent=2
+    )
+
+
 def _test():
     import doctest
     doctest.testmod()
