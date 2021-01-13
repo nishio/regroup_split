@@ -129,6 +129,9 @@ def calc_split_priority(tokens):
             t.split_priority = 60
         elif t.feature.startswith("助詞,格助詞"):
             t.split_priority = 40
+            if t.word == "が" or t.word == "と":
+                t.split_priority = 45
+
         else:
             t.split_priority = 0
 
@@ -181,7 +184,7 @@ def regression_test():
 
         expected = r["splits"]
         if expected != splits:
-            print(">", line)
+            print("\n>", line)
             print("expect:", expected)
             print("actual:", splits)
 
