@@ -92,8 +92,8 @@ def split1(tokens):
     tokens = clean(tokens)
     if not tokens:
         return []
-    if not is_too_long(tokens):
-        return [tokens]
+    # if not is_too_long(tokens):
+    #     return [tokens]
 
     ret = []
     buf = []
@@ -117,7 +117,7 @@ def split2(tokens):
     ret = []
     buf = []
     for t in tokens:
-        if t.feature.startswith("助詞,接続助詞"):
+        if t.feature.startswith("助詞,接続助詞") or t.word == "たら":
             ret.extend(split3(buf))
             buf = []
         else:
@@ -180,6 +180,7 @@ def main():
         line = line.strip()
         print(f"\n> {line}")
         tokens = tokenize(line)
+        print(tokens)
         for ts in split1(tokens):
             print(concat_tokens(ts))
 
