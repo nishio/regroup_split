@@ -192,7 +192,7 @@ def add_regression_test():
     result = json.load(open("test/regression_test.json"))
     lines = open("test/simplelines1.txt").readlines()
     for i in range(len(result), len(lines)):
-        line = lines[i]
+        line = lines[i].strip()
         tokens = tokenize(line)
         calc_split_priority(tokens)
         obj = {
