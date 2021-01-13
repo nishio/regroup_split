@@ -77,7 +77,10 @@ def remove_tail(tokens):
 
 
 def clean(tokens):
-    ret = remove_tail(tokens)
+    ret = tokens
+    if ret:
+        ret[-1].word = to_base_form(ret[-1])
+    ret = remove_tail(ret)
     ret = remove_head(ret)
     if ret:
         ret[-1].word = to_base_form(ret[-1])
@@ -131,11 +134,15 @@ def main():
     for line in open("test/simplelines1.txt"):
         line = line.strip()
         print(f"\n> {line}")
-        tokens = tokenize(line)
-        calc_split_priority(tokens)
-        print(">", concat_tokens(tokens, " "))
-        for ts in split(tokens):
-            print(concat_tokens(ts))
+        single_test(line)
+
+
+def single_test(line):
+    tokens = tokenize(line)
+    calc_split_priority(tokens)
+    print(">", concat_tokens(tokens, " "))
+    for ts in split(tokens):
+        print(concat_tokens(ts))
 
 
 def initiate_regression_test():
