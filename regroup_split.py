@@ -108,6 +108,8 @@ def split(tokens, priority=100):
     buf = []
     for t in tokens:
         if t.split_priority == priority:
+            if priority == 100:
+                buf.append(t)
             ret.extend(split(buf, next_priority))
             buf = []
         else:
@@ -118,7 +120,7 @@ def split(tokens, priority=100):
 
 def calc_split_priority(tokens):
     for i, t in enumerate(tokens):
-        if t.word in "、。「」()！[]":
+        if t.word in "、。「」()！[]？":
             t.split_priority = 100
         elif t.feature.startswith("助詞,接続助詞") or t.word == "たら":
             t.split_priority = 80
