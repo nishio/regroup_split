@@ -22,18 +22,6 @@ REPLACE = """
 """
 
 
-def output(buf):
-    buf = remove_tail(buf)
-    buf = remove_head(buf)
-    if buf:
-        buf[-1].word = to_base_form(buf[-1])
-        print(buf)
-
-
-def split(buf):
-    output(buf)
-
-
 def remove_head(tokens):
     """
     >>> remove_head(tokenize("あー"))
@@ -88,31 +76,112 @@ def remove_tail(tokens):
     return tokens
 
 
+def clean(tokens):
+    ret = remove_tail(tokens)
+    ret = remove_head(ret)
+    if ret:
+        ret[-1].word = to_base_form(ret[-1])
+    return ret
+
+
+def is_too_long(tokens, limit=20):
+    return sum(len(x) for x in tokens) > limit
+
+
+def split1(tokens):
+    tokens = clean(tokens)
+    if not tokens:
+        return []
+    if not is_too_long(tokens):
+        return [tokens]
+
+    ret = []
+    buf = []
+    for t in tokens:
+        if t.word in "、。「」()！":
+            ret.extend(split2(buf))
+            buf = []
+        else:
+            buf.append(t)
+    ret.extend(split2(buf))
+    return ret
+
+
+def split2(tokens):
+    tokens = clean(tokens)
+    if not tokens:
+        return []
+    if not is_too_long(tokens):
+        return [tokens]
+
+    ret = []
+    buf = []
+    for t in tokens:
+        if t.feature.startswith("助詞,接続助詞"):
+            ret.extend(split3(buf))
+            buf = []
+        else:
+            buf.append(t)
+    ret.extend(split3(buf))
+    return ret
+
+
+def split3(tokens):
+    tokens = clean(tokens)
+    if not tokens:
+        return []
+    if not is_too_long(tokens):
+        return [tokens]
+
+    ret = []
+    buf = []
+    for t in tokens:
+        if t.feature.startswith("助詞,係助詞"):
+            ret.extend(split4(buf))
+            buf = []
+        else:
+            buf.append(t)
+    ret.extend(split4(buf))
+    return ret
+
+
+def split4(tokens):
+    tokens = clean(tokens)
+    if not tokens:
+        return []
+    if not is_too_long(tokens):
+        return [tokens]
+
+    ret = []
+    buf = []
+    for t in tokens:
+        if t.feature.startswith("助詞,格助詞"):
+            ret.extend(split5(buf))
+            buf = []
+        else:
+            buf.append(t)
+    ret.extend(split5(buf))
+    return ret
+
+
+def split5(tokens):
+    tokens = clean(tokens)
+    if not tokens:
+        return []
+    if not is_too_long(tokens):
+        return [tokens]
+
+    print("too long", tokens)
+    return [tokens]
+
+
 def main():
     for line in open("test/simplelines1.txt"):
         line = line.strip()
         print(f"\n> {line}")
         tokens = tokenize(line)
-        # print(tokens)
-        buf = []
-        buflen = 0
-
-        for t in tokens:
-            # print(t, t.feature)
-            if str(t) in "、。「」()！":
-                output(buf)
-                buflen = 0
-                buf = []
-
-            else:
-                buf.append(t)
-                buflen += len(str(t))
-                # if buflen > 100:
-                #     split(buf)
-                #     buflen = 0
-                #     buf = []
-
-        output(buf)
+        for ts in split1(tokens):
+            print(concat_tokens(ts))
 
 
 T1 = """
