@@ -88,91 +88,43 @@ def is_too_long(tokens, limit=20):
     return sum(len(x) for x in tokens) > limit
 
 
-def split1(tokens):
+def split(tokens, priority=100):
     tokens = clean(tokens)
     if not tokens:
         return []
-    # if not is_too_long(tokens):
-    #     return [tokens]
+    if priority < 100 and not is_too_long(tokens):
+        return [tokens]
+    if priority == 0:
+        return [tokens]
+
+    next_priority = max(
+        t.split_priority for t in tokens
+        if t.split_priority < priority)
 
     ret = []
     buf = []
     for t in tokens:
+        if t.split_priority == priority:
+            ret.extend(split(buf, next_priority))
+            buf = []
+        else:
+            buf.append(t)
+    ret.extend(split(buf, next_priority))
+    return ret
+
+
+def calc_split_priority(tokens):
+    for i, t in enumerate(tokens):
         if t.word in "、。「」()！[]":
-            ret.extend(split2(buf))
-            buf = []
+            t.split_priority = 100
+        elif t.feature.startswith("助詞,接続助詞") or t.word == "たら":
+            t.split_priority = 80
+        elif t.feature.startswith("助詞,係助詞"):
+            t.split_priority = 60
+        elif t.feature.startswith("助詞,格助詞"):
+            t.split_priority = 40
         else:
-            buf.append(t)
-    ret.extend(split2(buf))
-    return ret
-
-
-def split2(tokens):
-    tokens = clean(tokens)
-    if not tokens:
-        return []
-    if not is_too_long(tokens):
-        return [tokens]
-
-    ret = []
-    buf = []
-    for t in tokens:
-        if t.feature.startswith("助詞,接続助詞") or t.word == "たら":
-            ret.extend(split3(buf))
-            buf = []
-        else:
-            buf.append(t)
-    ret.extend(split3(buf))
-    return ret
-
-
-def split3(tokens):
-    tokens = clean(tokens)
-    if not tokens:
-        return []
-    if not is_too_long(tokens):
-        return [tokens]
-
-    ret = []
-    buf = []
-    for t in tokens:
-        if t.feature.startswith("助詞,係助詞"):
-            ret.extend(split4(buf))
-            buf = []
-        else:
-            buf.append(t)
-    ret.extend(split4(buf))
-    return ret
-
-
-def split4(tokens):
-    tokens = clean(tokens)
-    if not tokens:
-        return []
-    if not is_too_long(tokens):
-        return [tokens]
-
-    ret = []
-    buf = []
-    for t in tokens:
-        if t.feature.startswith("助詞,格助詞"):
-            ret.extend(split5(buf))
-            buf = []
-        else:
-            buf.append(t)
-    ret.extend(split5(buf))
-    return ret
-
-
-def split5(tokens):
-    tokens = clean(tokens)
-    if not tokens:
-        return []
-    if not is_too_long(tokens):
-        return [tokens]
-
-    print("too long", tokens)
-    return [tokens]
+            t.split_priority = 0
 
 
 def main():
@@ -180,8 +132,9 @@ def main():
         line = line.strip()
         print(f"\n> {line}")
         tokens = tokenize(line)
+        calc_split_priority(tokens)
         print(">", concat_tokens(tokens, " "))
-        for ts in split1(tokens):
+        for ts in split(tokens):
             print(concat_tokens(ts))
 
 
@@ -212,8 +165,9 @@ def regression_test():
     for i, line in enumerate(open("test/simplelines1.txt")):
         line = line.strip()
         tokens = tokenize(line)
+        calc_split_priority(tokens)
         splits = [
-            concat_tokens(ts) for ts in split1(tokens)]
+            concat_tokens(ts) for ts in split(tokens)]
 
         expected = result[i]["splits"]
         if expected != splits:
