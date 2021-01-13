@@ -1,0 +1,1220 @@
+今日は色々と整理したいことがある、ボットと会話するのが、整理の役に立つのか、それとも新しいアイデアを生み出してさらに収拾つかなくなるのか、収束思考ができるのか発散思考しかできないのか、は気になるところ。
+話そう
+nishio profile image	
+nisbot
+BOT
+午後2:10
+あなたはこの会話で何が起きて欲しいですか？
+nishio profile image	
+nishio
+午後2:11
+開発してからしばらく経ってるプロジェクトに改善点を思いついた時に、次のアクションが決まらなくて着手されないまま放置されて溜まっていき収集つかなくなる問題の解決方法が欲しい
+nishio profile image	
+nisbot
+BOT
+午後2:11
+そのアクションは、どんな種類のアクションですか？
+nishio profile image	
+nishio
+午後2:11
+プロジェクトを改善するためのアクション
+nishio profile image	
+nisbot
+BOT
+午後2:11
+そのアクションについて、他に何かありますか？
+nishio profile image	
+nishio
+午後2:12
+んーと、やらないと前に進まない
+nishio profile image	
+nisbot
+BOT
+午後2:12
+プロジェクトを改善するためのアクション
+あなたはこのアクションをどう知るのですか？
+nishio profile image	
+nishio
+午後2:13
+そう、そうだよね。えーと、プロジェクトを改善するアイデアを思いついたとき、そのアイデアはまだ具体的なアクションにまで噛み砕かれてないんだ。だからそれをTODOリストに置いても実行されない。アイデアを噛み砕いて実行可能なアクションを得るために「噛み砕くタスク」をまずやる必要がある
+nishio profile image	
+nisbot
+BOT
+午後2:13
+そのアクションは、どのあたりにありますか？
+nishio profile image	
+nishio
+午後2:14
+(ここは「その噛み砕くとはどのようなものか」と聞いて欲しいところだけど、動詞がキーワードとして抽出されにくいって問題があるのだった、また新しい改善点が見つかってしまった)
+アクションは、まだない、噛み砕いた後に現れる
+nishio profile image	
+nisbot
+BOT
+午後2:15
+そのアクションは、どこにありますか？
+nishio profile image	
+nishio
+午後2:15
+ない
+nishio profile image	
+nisbot
+BOT
+午後2:15
+そう、そうだよね。えーと、プロジェクトを改善するアイデアを思いついたとき、そのアイデアはまだ具体的なアクションにまで噛み砕かれてないんだ。だからそれをTODOリストに置いても実行されない。アイデアを噛み砕いて実行可能なアクションを得るために「噛み砕くタスク」をまずやる必要がある
+このプロジェクトは、どんな種類のプロジェクトですか？
+nishio profile image	
+nishio
+午後2:16
+やるべきことが外から与えられることのない、自発的なプロジェクト。どう改善するのかを決めるのも自分自身。
+nishio profile image	
+nisbot
+BOT
+午後2:16
+そのプロジェクトについて、他に何かありますか？
+nishio profile image	
+nishio
+午後2:17
+自発的なプロジェクトは、サイクルの摩擦が大きくなると回転を止めてしまう
+nishio profile image	
+nisbot
+BOT
+午後2:17
+そのプロジェクトは、どのあたりにありますか？
+nishio profile image	
+nishio
+午後2:18
+複数人の間にあれば他人の活動がトリガーになることもあるんだろうけど、一人で作ってると、その一人が動かなくなるとそれだけでプロジェクトが止まってしまう。一人の中にしかないプロジェクトが特に深刻。
+nishio profile image	
+nisbot
+BOT
+午後2:19
+あなたはそのプロジェクトをどう知るのですか？
+nishio profile image	
+nishio
+午後2:20
+知るというか、思いついて、やってる状態。
+「プロジェクトの何々を知る」だと最も具体的かも。プロジェクトの目的、プロジェクトをやる価値、プロジェクトの発展方法…
+nishio profile image	
+nisbot
+BOT
+午後2:20
+あなたが価値を感じているのは何ですか？
+nishio profile image	
+nishio
+午後2:21
+うーん、つまり現状のプロジェクトでまあまあ価値を感じてて、思いついた改善を行うとさらに価値が上がりそうだと思ってるけど、なぜかその改善活動が行われない状況なんだな。
+nishio profile image	
+nisbot
+BOT
+午後2:21
+そのプロジェクトとアクションの関係は何ですか？
+nishio profile image	
+nishio
+午後2:22
+アクションによってプロジェクトがより良くなっていく。
+nishio profile image	
+nisbot
+BOT
+午後2:22
+そのアクションと、プロジェクトとは同じですか？違いますか？
+nishio profile image	
+nishio
+午後2:22
+アクションの積み重ねがプロジェクトを形作っていく
+nishio profile image	
+nisbot
+BOT
+午後2:22
+そのプロジェクトは、どこにありますか？
+nishio profile image	
+nishio
+午後2:23
+最初は一人の人の中にしかないよね、将来的には複数の人の間にあった方が良さそう
+nishio profile image	
+nisbot
+BOT
+午後2:23
+アクションの積み重ねがプロジェクトを形作っていく
+このプロジェクトは、どこから来るのですか？
+nishio profile image	
+nishio
+午後2:24
+一人の人がまずアイデアを思いついて、そのアイデアを確認したいというモチベーションで「噛み砕き」をし、アクションを生み出して、それを実行することによってプロジェクトが生まれる
+nishio profile image	
+nisbot
+BOT
+午後2:24
+そのアクションの時、プロジェクトに何が起こりますか？
+nishio profile image	
+nishio
+午後2:25
+育つ
+nishio profile image	
+nisbot
+BOT
+午後2:25
+プロジェクトの時、アクションに何が起こりますか？
+nishio profile image	
+nishio
+午後2:25
+プロジェクトの目的が明らかに言語化されると、いろいろな可能なアクションの中からやるべきアクションを選ぶことが容易になる
+nishio profile image	
+nisbot
+BOT
+午後2:25
+そのアクションとプロジェクトの間には何がありますか？
+nishio profile image	
+nishio
+午後2:26
+アクションからプロジェクトへの片方向矢印ではなく、相互に影響を与える両方向矢印がある
+nishio profile image	
+nisbot
+BOT
+午後2:26
+そのプロジェクトは、何のようですか？
+nishio profile image	
+nishio
+午後2:27
+うーん、わからない。北極星かな。
+nishio profile image	
+nisbot
+BOT
+午後2:27
+その北極星とプロジェクトの関係は何ですか？
+nishio profile image	
+nishio
+午後2:28
+北極星は進むべき方向を決める助けになる。プロジェクトも、目的が明確に言語化されれば、進むべき方向が決めやすくなる。
+nishio profile image	
+nisbot
+BOT
+午後2:28
+そのプロジェクトと目的の関係は何ですか？
+nishio profile image	
+nishio
+午後2:30
+ここまでのまとめ
+プロジェクトの目的を明確にすることがプロジェクトの成長を促す。
+目的はアクションの選択を助ける
+プロジェクトは複数人の間に置いた方が止まりにくい。
+改善アイデアはアクションではない、まず噛み砕きタスクをやることでアクションを生み出す必要がある
+nishio profile image	
+nisbot
+BOT
+午後2:30
+そのプロジェクトと、目的とは同じですか？違いますか？
+nishio profile image	
+nishio
+午後2:31
+目的が北極星で、プロジェクトは進んでいく行軍のプロセスだな
+nishio profile image	
+nisbot
+BOT
+午後2:31
+そのプロジェクトの時、目的に何が起こりますか？
+nishio profile image	
+nishio
+午後2:31
+プロジェクトやってるうちに目的が変わることもある
+nishio profile image	
+nisbot
+BOT
+午後2:32
+その目的の時、プロジェクトに何が起こりますか？
+nishio profile image	
+nishio
+午後2:32
+今までやってきたことの一部が不要になり、逆に今までやってなかったいろいろなことが必要になる
+nishio profile image	
+nisbot
+BOT
+午後2:32
+プロジェクトと目的の間には何がありますか？
+nishio profile image	
+nishio
+午後2:32
+これも双方向矢印
+nishio profile image	
+nisbot
+BOT
+午後2:32
+プロジェクトと、北極星とは同じですか？違いますか？
+nishio profile image	
+nishio
+午後2:33
+違った
+nishio profile image	
+nisbot
+BOT
+午後2:33
+プロジェクトの時、北極星に何が起こりますか？
+nishio profile image	
+nishio
+午後2:33
+バイバイ
+一つ目の相談は終わり。最初に相談することメモしとくべきだったな、新しく出てきた話のせいで混乱してる。
+やはりこのボットは、収束させるのではなく発散させるのか。
+次の相談決まった
+話そう
+nishio profile image	
+nisbot
+BOT
+午後2:35
+あなたはこの会話で何が起きて欲しいですか？
+nishio profile image	
+nishio
+午後2:36
+アイデアが発散して混乱しているときに、その収拾を支援することはできるか？できるならその方法が知りたい。
+nishio profile image	
+nisbot
+BOT
+午後2:36
+その収拾について、他に何かありますか？
+nishio profile image	
+nishio
+午後2:37
+収拾することの何が目的なのか、収拾すると何が嬉しいのか。これもネクストアクションが決まるってことが目的なのかな。
+nishio profile image	
+nisbot
+BOT
+午後2:37
+そのネクストアクションは、どんな種類のネクストアクションですか？
+nishio profile image	
+nishio
+午後2:38
+次に何をすればいいかがわからなくて人間が混乱してるときに、ネクストアクションが決まると安心して作業ができる。混乱して次に何をしようが悩んでる時はあまり生産的ではない。ネクストアクションが決まると生産的になる。
+nishio profile image	
+nisbot
+BOT
+午後2:38
+そのネクストアクションについて、他に何かありますか？
+nishio profile image	
+nishio
+午後2:40
+うーん…機械がネクストアクションを決めて人間に与え、人間がサブルーチンとしてアクションを実行するシステムが人間だけのシステムよりも効率的であるなら経済的な合理性によってそのシステムが普及する？
+nishio profile image	
+nisbot
+BOT
+午後2:40
+あなたはそのネクストアクションをどう知るのですか？
+nishio profile image	
+nishio
+午後2:40
+人間が決められてない状況なら機械が決めて渡せば良いよね
+(編集済)
+nishio profile image	
+nisbot
+BOT
+午後2:40
+その人間について、他に何かありますか？
+nishio profile image	
+nishio
+午後2:41
+人間はダラダラしてる
+nishio profile image	
+nisbot
+BOT
+午後2:41
+その人間は、どんな種類の人間ですか？
+nishio profile image	
+nishio
+午後2:41
+自分で次に何をするかを決定することのできない人間
+nishio profile image	
+nisbot
+BOT
+午後2:41
+うーん…機械がネクストアクションを決めて人間に与え、人間がサブルーチンとしてアクションを実行するシステムが人間だけのシステムよりも効率的であるなら経済的な合理性によってそのシステムが普及する？
+このネクストアクションは、どこにありますか？
+nishio profile image	
+nishio
+午後2:44
+現状をインプットして、機械的にネクストアクションの候補が作り出せるなら、機械がネクストアクションを決めることは可能。その例が将棋のAIで、あれは「現状」という盤面情報をインプットすると、ルールから「ネクストアクションの候補」が決まり、それを選択する仕組み。
+nishio profile image	
+nisbot
+BOT
+午後2:44
+あなたはその機械をどう知るのですか？
+nishio profile image	
+nishio
+午後2:44
+NG
+nishio profile image	
+nisbot
+BOT
+午後2:44
+その機械について、他に何かありますか？
+nishio profile image	
+nishio
+午後2:46
+ネクストアクションの候補からの選択がランダムであっても対戦をする上では問題はないが、弱すぎて価値がない。選択がある程度賢くなると価値が生まれる。
+nishio profile image	
+nisbot
+BOT
+午後2:46
+あなたが価値を感じているのは何ですか？
+nishio profile image	
+nishio
+午後2:46
+ネクストアクション決定システムだな
+nishio profile image	
+nisbot
+BOT
+午後2:46
+そのネクストアクションと人間の関係は何ですか？
+nishio profile image	
+nishio
+午後2:46
+ネクストアクションが決まって、人間がそれに納得すれば、人間は効率よく活動できる
+nishio profile image	
+nisbot
+BOT
+午後2:47
+そのネクストアクションと、人間とは同じですか？違いますか？
+nishio
+午後2:47
+違う。人間はネクストアクションを実行する装置で、これは人間である必然性はない。
+nishio profile image	
+nisbot
+BOT
+午後2:47
+そのネクストアクションは、どのあたりにありますか？
+nishio profile image	
+nishio
+午後2:48
+機械が作って人間に渡す
+nishio profile image	
+nisbot
+BOT
+午後2:48
+その人間の時、ネクストアクションに何が起こりますか？
+nishio profile image	
+nishio
+午後2:48
+人間がネクストアクションを見てやる気を出し、それを実行するか、もしくはネクストアクションを見てもやる気が出なくてスルーする
+nishio profile image	
+nisbot
+BOT
+午後2:48
+そのネクストアクションは、どこから来るのですか？
+nishio profile image	
+nishio
+午後2:49
+機械が作るんだけど、もちろん「どうやって作るのか」は掘り下げる必要がありそう
+nishio profile image	
+nisbot
+BOT
+午後2:49
+ネクストアクションの時、人間に何が起こりますか？
+nishio profile image	
+nishio
+午後2:49
+「なるほど、それをやろう！」ってテンションが上がることがある。上がらない時もある。
+nishio profile image	
+nisbot
+BOT
+午後2:50
+ネクストアクションと人間の間には何がありますか？
+nishio profile image	
+nishio
+午後2:52
+機械が与えてくれるネクストアクションが「なるほど！」である確率がゼロでなくてうまく演出すれば、それば人間とガチャの間の関係と同じで、人間は間歇強化されてその行動を繰り返すようになる
+nishio profile image	
+nisbot
+BOT
+午後2:52
+そのネクストアクションと機械の関係は何ですか？
+nishio profile image	
+nishio
+午後2:53
+機械がネクストアクションを作り出せる仕組みが必要
+nishio profile image	
+nisbot
+BOT
+午後2:53
+そのネクストアクションと、機械とは同じですか？違いますか？
+nishio profile image	
+nishio
+午後2:55
+違う、機械が生み出す。
+ここまでのまとめ
+機械がネクストアクションを作り出して人間に与える
+人間は生産的になる
+収拾がつかない、はネクストアクション不在の状態
+ランダムであってもとりあえず機能する、精度が上がると価値が上がる
+nishio profile image	
+nisbot
+BOT
+午後2:55
+そのネクストアクションの時、機械に何が起こりますか？
+nishio profile image	
+nishio
+午後2:56
+NG
+nishio profile image	
+nisbot
+BOT
+午後2:56
+その機械の時、ネクストアクションに何が起こりますか？
+nishio profile image	
+nishio
+午後2:56
+NG
+nishio profile image	
+nisbot
+BOT
+午後2:56
+そのネクストアクションと機械の間には何がありますか？
+nishio profile image	
+nishio
+午後3:00
+この種の問いに何も答えられないのは、そこが僕の中でも明確ではないからなのだ。「ネクストアクションと機械の間の関係を明らかにしたい」とかで別途新しい相談をするべきもの。
+nishio profile image	
+nisbot
+BOT
+午後3:00
+そのネクストアクションと間の関係は何ですか？
+nishio profile image	
+nishio
+午後3:01
+(いや「間」をキーワードに選ぶのはダメでしょ)
+バイバイ
+何年か前に作った「やる気を出すシステム」も「散歩したら？」「書き出してみた？」みたいにネクストアクションを機械が提案してくれるシステムであった。あれはけっこうファンがいる反面、僕の側が「やる気を出させることは正しいのか？」と悩み始めて開発が止まってる。
+入力を見てるとかなりの割合でうつ病なりかけの人がいて、やる気を出すことが善であるかのようなサービスは存在してはいけないのではないか、と思ったり
+つまり「やらなきゃいけないこと」がたくさんあって、どれもやりたいことでないような人は、その中のどれかを選んでやる気を出すのではなく、まずその状態から離れるべきなのでは、ということ
+午後3:09
+「やる気を出させる」のではなく「やる気が湧いてくるようなやりたいことを見つけることを支援する」のが良いのか
+「やる気システム」はサーバプログラムを置かないで静的コンテンツとGoogleアナリティクスだけで実現したプロトタイプだったのだけど、今ならサーバサイドの運営コストも下がってるのでサーバサイド有りで作り直してもいいかもなぁ。このチャットみたいに。UIもチャットでいいかもしれない
+nishio profile image	
+nishio
+午後3:22
+今でも「そのタスクは4時間以内に終わりますか？」みたいに質問して具体化している、このチャットシステムと似た構図。
+この「聞き出しチャットシステム」の改良について相談しようと思ってたのだけど「ネクストアクション選択チャットシステム」という新しい案が生まれたし、もしかしたらこの二つは内部で合体してモードの違いになるかもしれない
+そして聞き出しチャットシステムは発散させるばっかりで全然収束しないぞ！
+発散思考モードと収束思考モードなのか
+話そう
+nishio profile image	
+nisbot
+BOT
+午後3:26
+あなたはこの会話で何が起きて欲しいですか？
+nishio profile image	
+nishio
+午後3:26
+僕のネクストアクションが何か決まってほしい
+nishio profile image	
+nisbot
+BOT
+午後3:26
+そのネクストアクションは、どんな種類のネクストアクションですか？
+nishio profile image	
+nishio
+午後3:27
+(そうなるよなぁ
+バイバイ
+話そう
+nishio profile image	
+nisbot
+BOT
+午後3:27
+あなたはこの会話で何が起きて欲しいですか？
+nishio profile image	
+nishio
+午後3:27
+まず聞いて
+nishio profile image	
+nisbot
+BOT
+午後3:27
+はい
+nishio profile image	
+nishio
+午後3:28
+何年か前に作った「やる気を出すシステム」も「散歩したら？」「書き出してみた？」みたいにネクストアクションを機械が提案してくれるシステムであった。あれはけっこうファンがいる反面、僕の側が「やる気を出させることは正しいのか？」と悩み始めて開発が止まってる。入力を見てるとかなりの割合でうつ病なりかけの人がいて、やる気を出すことが善であるかのようなサービスは存在してはいけないのではないか、と思ったり。つまり「やらなきゃいけないこと」がたくさんあって、どれもやりたいことでないような人は、その中のどれかを選んでやる気を出すのではなく、まずその状態から離れるべきなのでは、ということ。「やる気を出させる」のではなく「やる気が湧いてくるようなやりたいことを見つけることを支援する」のが良いのか？
+nishio profile image	
+nisbot
+BOT
+午後3:28
+反面
+nishio profile image	
+nishio
+午後3:29
+「やる気システム」はサーバプログラムを置かないで静的コンテンツとGoogleアナリティクスだけで実現したプロトタイプだったのだけど、今ならサーバサイドの運営コストも下がってるのでサーバサイド有りで作り直してもいいかもなぁ。このチャットみたいに。UIもチャットでいいかもしれない。今でも「そのタスクは4時間以内に終わりますか？」みたいに質問して具体化している、このチャットシステムと似た構図。この「聞き出しチャットシステム」の改良について相談しようと思ってたのだけど「ネクストアクション選択チャットシステム」という新しい案が生まれたし、もしかしたらこの二つは内部で合体してモードの違いになるかもしれない。そして聞き出しチャットシステムは発散させるばっかりで全然収束しないぞ！発散思考モードと収束思考モードなのか。
+nishio profile image	
+nisbot
+BOT
+午後3:29
+サーバプログラム
+nishio profile image	
+nishio
+午後3:29
+おしまい
+nishio profile image	
+nisbot
+BOT
+午後3:29
+あなたはこの会話で何が起きて欲しいですか？
+nishio profile image	
+nishio
+午後3:29
+僕のネクストアクションが決まって欲しい。
+nishio profile image	
+nisbot
+BOT
+午後3:30
+そのネクストアクションは、どんな種類のネクストアクションですか？
+nishio profile image	
+nishio
+午後3:30
+うーん、やっぱりこうなるのね。チャットシステムをよりよくするアクション
+nishio profile image	
+nisbot
+BOT
+午後3:30
+僕のネクストアクションが決まって欲しい。
+このネクストアクションについて、他に何かありますか？
+nishio profile image	
+nishio
+午後3:31
+ブラウザ上でチャット風UIをつけるとか、やる気システムをチャット化するとか…
+nishio profile image	
+nisbot
+BOT
+午後3:31
+あなたが価値を感じているのは何ですか？
+nishio profile image	
+nishio
+午後3:32
+現状の聞き出しチャットシステムは、発散させる方向ではわりと機能してるんだけど、収束させてくれないから使えば使うほど収拾つかなくなっていく。収束の支援もしてくれるようになると、一人でボットと話しながら発散と収束を行えて良い
+nishio profile image	
+nisbot
+BOT
+午後3:32
+そのチャットシステムは、何のようですか？
+nishio profile image	
+nishio
+午後3:34
+よく知らないけどデザインファームの人ってこんな感じのことをするのかな？
+nishio profile image	
+nisbot
+BOT
+午後3:34
+現状の聞き出しチャットシステムは、発散させる方向ではわりと機能してるんだけど、収束させてくれないから使えば使うほど収拾つかなくなっていく。収束の支援もしてくれるようになると、一人でボットと話しながら発散と収束を行えて良い
+このチャットシステムについて、他に何かありますか？
+nishio profile image	
+nishio
+午後3:34
+収束とはネクストアクションを決めることで、その支援システムは過去に作ったものがあり、わりと好評
+nishio profile image	
+nisbot
+BOT
+午後3:35
+あなたはそのネクストアクションをどう知るのですか？
+nishio profile image	
+nishio
+午後3:35
+支援システムが提示してきて、それを見てグッときたものが選ばれる
+nishio profile image	
+nisbot
+BOT
+午後3:35
+ネクストアクションとチャットシステムの関係は何ですか？
+nishio profile image	
+nishio
+午後3:36
+今はチャットシステムではない方法でネクストアクション提案が行われてるけど、チャットシステムか、もしくは別の方法で詳しい情報を得た方が詳しい提案ができる。チャットシステムである必要はないな、TODOリストとかを貼り付けて読み込ませられた方が良さげ
+nishio profile image	
+nisbot
+BOT
+午後3:36
+そのチャットシステムは、どんな種類のチャットシステムですか？
+nishio profile image	
+nishio
+午後3:37
+TODOリストを読み込ませた後で、その項目に対して質問をして具体化を促す。チャットシステムであることというより質問をするシステムであることが大事
+nishio profile image	
+nisbot
+BOT
+午後3:37
+そのチャットシステムは、どのあたりにありますか？
+nishio profile image	
+nishio
+午後3:38
+スマホで使えて欲しい
+nishio profile image	
+nisbot
+BOT
+午後3:38
+TODOリストを読み込ませた後で、その項目に対して質問をして具体化を促す。チャットシステムであることというより質問をするシステムであることが大事
+あなたはこのチャットシステムをどう知るのですか？
+nishio profile image	
+nishio
+午後3:39
+僕は？ユーザは？僕はこのチャットシステムの作り方をどうやって知るのか？それを聞き出しチャットシステムに相談している
+nishio profile image	
+nisbot
+BOT
+午後3:39
+そのチャットシステムは、どこにありますか？
+nishio profile image	
+nishio
+午後3:40
+herokuだよ
+nishio profile image	
+nisbot
+BOT
+午後3:40
+ネクストアクションと、チャットシステムとは同じですか？違いますか？
+nishio profile image	
+nishio
+午後3:40
+チャットシステムがネクストアクションを生む
+nishio profile image	
+nisbot
+BOT
+午後3:40
+そのネクストアクションの時、チャットシステムに何が起こりますか？
+nishio profile image	
+nishio
+午後3:41
+(まず聞いて、の内容、ちゃんと聞いてたのかな…)
+(抽象度高すぎる質問だな)
+午後3:42
+NGKW
+nisbot
+BOT
+午後3:42
+収束とはネクストアクションを決めることで、その支援システムは過去に作ったものがあり、わりと好評
+この収束について、他に何かありますか？
+nishio profile image	
+nishio
+午後3:42
+今は発散する一方なので収束とペアになることでもっと価値が高まる
+nishio profile image	
+nisbot
+BOT
+午後3:42
+あなたはその収束をどう知るのですか？
+nishio profile image	
+nishio
+午後3:43
+機械が提案したもを見て、心が動いたら、収束したということ
+nishio profile image	
+nisbot
+BOT
+午後3:43
+その機械について、他に何かありますか？
+nishio profile image	
+nishio
+午後3:43
+いまチャットとかTODOリスト読み込ませるとか話してたけど、Scrapboxにデータが溜まっていくのも面白いかもしれない
+nishio profile image	
+nisbot
+BOT
+午後3:43
+そのTODOリストは、どのあたりにありますか？
+nishio profile image	
+nishio
+午後3:45
+TODOリストは人によって好みの管理方法が違うからテキスト形式とかでインポート出来たら良いと思ってて、メジャーなTODO管理アプリのフォーマットにも対応するとなおよし、ってのを踏まえて、ScrapboxにTODOリストが置かれてる状態をインポートできたらキーワードがブラケティングされてたりして有用かも
+nishio profile image	
+nisbot
+BOT
+午後3:46
+そのTODOリストについて、他に何かありますか？
+nishio profile image	
+nishio
+午後3:50
+作るプロセス自体を支援してもいいかもね、ないならまず1分間、思いついたものをなんでも書き出す、とか、手元にあるリストが既に多すぎるならフィルターしていくとか
+nishio profile image	
+nisbot
+BOT
+午後3:50
+そのプロセス自体は、どんな種類のプロセス自体ですか？
+nishio profile image	
+nishio
+午後3:50
+TODOリストが作られるプロセス
+nishio profile image	
+nisbot
+BOT
+午後3:50
+あなたはそのTODOリストをどう知るのですか？
+nishio profile image	
+nishio
+午後3:52
+「なんでも書き出して」からスタートするなら最初がTODOリストであることを仮定する必要はないよな
+nishio profile image	
+nisbot
+BOT
+午後3:52
+そのTODOリストと収束の関係は何ですか？
+nishio profile image	
+nishio
+午後3:53
+TODOリストが少数の実行可能なアクションの集まりになってて、人間がそのアクションを実行することに熱意を感じてる状態がよい収束
+nishio profile image	
+nisbot
+BOT
+午後3:53
+そのTODOリストは、どこにありますか？
+nishio profile image	
+nishio
+午後3:53
+作られる
+nishio profile image	
+nisbot
+BOT
+午後3:53
+収束と、TODOリストとは同じですか？違いますか？
+nishio profile image	
+nishio
+午後3:54
+TODOリストやTODOにすらなってないリストがシステムへの入力として与えられ、システムが質問をして、熱意の持てるよいTODOリストが出力される
+nishio profile image	
+nisbot
+BOT
+午後3:54
+そのTODOリストは、どんな種類のTODOリストですか？
+nishio profile image	
+nishio
+午後3:55
+「熱意の持てるアクションだけで構成されたリスト」に別の名前があってもいいかもね、退屈なTODOリストに価値はない
+nishio profile image	
+nisbot
+BOT
+午後3:55
+そのTODOリストは、何のようですか？
+nishio profile image	
+nishio
+午後3:57
+ガソリン。タンクがガソリンで満たされてるとどんどん走っていくことができる。水をタンクに入れても走れない。少し水が混ざるだけでエンジンがおかしくなる。純度が大事。
+nishio profile image	
+nisbot
+BOT
+午後3:57
+収束の時、TODOリストに何が起こりますか？
+nishio profile image	
+nishio
+午後3:57
+質の良い燃料に変わる。
+nishio profile image	
+nisbot
+BOT
+午後3:57
+TODOリストの時、収束に何が起こりますか？
+nishio profile image	
+nishio
+午後3:58
+何もないところから収束させるのは難しい、雑なものでも書き出したものが必要
+nishio profile image	
+nisbot
+BOT
+午後3:58
+その収束とTODOリストの間には何がありますか？
+nishio profile image	
+nishio
+午後3:59
+うーん。わからない
+nishio profile image	
+nisbot
+BOT
+午後3:59
+TODOリストと熱意の関係は何ですか？
+nishio profile image	
+nishio
+午後3:59
+よいTODOリストがあると、熱意が出てくる
+nishio profile image	
+nisbot
+BOT
+午後4:00
+その熱意と、TODOリストとは同じですか？違いますか？
+nishio profile image	
+nishio
+午後4:00
+違う。TODOリストは燃料で、それをエンジンで燃やした結果として、熱意という推進力が生まれる
+nishio profile image	
+nisbot
+BOT
+午後4:01
+そのTODOリストの時、熱意に何が起こりますか？
+nishio profile image	
+nishio
+午後4:01
+熱意が高まる
+nishio profile image	
+nisbot
+BOT
+午後4:01
+その熱意について、他に何かありますか？
+nishio profile image	
+nishio
+午後4:02
+熱意こそが一番貴重なリソースで、これを機械的に生み出すことができると人類の生産性がとても高まる
+nishio profile image	
+nisbot
+BOT
+午後4:02
+その熱意の時、TODOリストに何が起こりますか？
+nishio profile image	
+nishio
+午後4:03
+新しいアイデアが出てきてTODOリストが太っていく
+nishio profile image	
+nisbot
+BOT
+午後4:03
+そのTODOリストと熱意の間には何がありますか？
+nishio profile image	
+nishio
+午後4:03
+太りすぎたTODOリストは熱意を失わせる
+nishio profile image	
+nisbot
+BOT
+午後4:03
+その熱意は、どんな種類の熱意ですか？
+nishio profile image	
+nishio
+午後4:04
+アクションを実行しようというやる気が湧き出してくる熱意
+nishio profile image	
+nisbot
+BOT
+午後4:04
+その熱意は、どのあたりにありますか？
+nishio profile image	
+nishio
+午後4:04
+まあ胸のあたりにかな
+nishio profile image	
+nisbot
+BOT
+午後4:04
+アクションを実行しようというやる気が湧き出してくる熱意
+この熱意は、どこにありますか？
+nishio profile image	
+nishio
+午後4:05
+人の心の中にあって、行動の原動力になる
+nishio profile image	
+nisbot
+BOT
+午後4:05
+その人とTODOリストの関係は何ですか？
+nishio profile image	
+nishio
+午後4:07
+現状はまだ機械が熱意を持つことはできてないので、機械にできることを機械に任せていくと、人が熱意を持つことが人に残された役割になる、TODOリストを生み出すアクションも機械ができてない、熱意を持った人がやるしかない
+nishio profile image	
+nisbot
+BOT
+午後4:07
+あなたはその熱意をどう知るのですか？
+nishio profile image	
+nishio
+午後4:07
+これはまだ言語化できてない、エモーション
+nishio profile image	
+nisbot
+BOT
+午後4:08
+現状はまだ機械が熱意を持つことはできてないので、機械にできることを機械に任せていくと、人が熱意を持つことが人に残された役割になる、TODOリストを生み出すアクションも機械ができてない、熱意を持った人がやるしかない
+この熱意は、何のようですか？
+nishio profile image	
+nishio
+午後4:08
+ダイナマイトのようなもの。壁を打ち破る突破力
+nishio profile image	
+nisbot
+BOT
+午後4:08
+アクションとTODOリストの関係は何ですか？
+nishio profile image	
+nishio
+午後4:10
+TODOリストは具体的なアクションから構成されなければならない、今のこの会話で「TODOリストを改質する仕組みが必要だ」というアイデアに熱意を感じたとしても、それはまだ実行可能な具体的アクションではない
+nishio profile image	
+nisbot
+BOT
+午後4:10
+そのアクションと、TODOリストとは同じですか？違いますか？
+nishio profile image	
+nishio
+午後4:11
+具体的な実行可能なアクションなら一つしかなくても「良いTODOリスト」ではある、むしろ複数ない方が「どれからやろう」と考える余地がないから良いかもしれない
+nishio profile image	
+nisbot
+BOT
+午後4:11
+そのアクションの時、TODOリストに何が起こりますか？
+nishio profile image	
+nishio
+午後4:11
+バイバイ
+現状のシステムではいくらやっても具体的なアクションにはならない、なぜなら具体的なアクションにするための質問がないからだ
+たとえばこのチャットログを流し込んだときに、それを具体的なアクションに変えていくための質問の束が必要だ
+TODO
+このチャットログをScrapboxに貼る
+質問リストを考えるページを作る
+これは一旦置いといてもう一つ相談する予定だったことをやろう
+話そう
+nishio profile image	
+nisbot
+BOT
+午後4:16
+あなたはこの会話で何が起きて欲しいですか？
+nishio profile image	
+nishio
+午後4:17
+このボットとの会話自体をコンテンツにすることができないかなということを考えてる。
+nishio profile image	
+nisbot
+BOT
+午後4:17
+そのボットについて、他に何かありますか？
+nishio profile image	
+nishio
+午後4:17
+質問をすることで僕の思ってなかったようなコンテンツが引き出される
+nishio profile image	
+nisbot
+BOT
+午後4:18
+TODO
+このチャットログをScrapboxに貼る
+質問リストを考えるページを作る
+このチャットログは、どんな種類のチャットログですか？
+nishio profile image	
+nishio
+午後4:19
+(むむ、これは会話開始時点より前の入力が使われてしまうバグがあるな)
+チャットログはボットとの会話のログ。
+nishio profile image	
+nisbot
+BOT
+午後4:20
+そのチャットログについて、他に何かありますか？
+nishio profile image	
+nishio
+午後4:20
+少し加工すれば読み物として面白くならないかなーと思ってる
+nishio profile image	
+nisbot
+BOT
+午後4:20
+その読み物について、他に何かありますか？
+nishio profile image	
+nishio
+午後4:22
+新しいアイデアが生まれる瞬間の記録って、アイデアを生み出す方法を作る上で有用なのに、あんまりデータとして蓄積されてない、この方法でたくさん集めていくとそこから新たなパターンが発見されるのではないか
+nishio profile image	
+nisbot
+BOT
+午後4:22
+そのアイデアについて、他に何かありますか？
+nishio profile image	
+nishio
+午後4:24
+盲点に気づくことによって生まれるタイプのアイデアで、その気づきをどう機械が支援できるか、は知的生産性を考える上で重要
+nishio profile image	
+nisbot
+BOT
+午後4:24
+あなたが価値を感じているのは何ですか？
+nishio profile image	
+nishio
+午後4:25
+気づきのパターンが発見されればそれを促すことがやりやすくなる、気づきは有用だから、それを生み出すパターンも有用
+nishio profile image	
+nisbot
+BOT
+午後4:25
+そのパターンは、どんな種類のパターンですか？
+nishio profile image	
+nishio
+午後4:26
+例えば「XとYの関係は？」と問われることで、関係を考えた結果、予期しない繋がりが発見される
+nishio profile image	
+nisbot
+BOT
+午後4:26
+気づきのパターンが発見されればそれを促すことがやりやすくなる、気づきは有用だから、それを生み出すパターンも有用
+このパターンについて、他に何かありますか？
+nishio profile image	
+nishio
+午後4:29
+例えばこのチャットシステムには搭載されてないんだけど、単語を辞書で検索した結果を提示して「あなたがXという言葉で表現したかったのはこういうことですか？」って問うと、「いや、そうじゃなくて」と新たな言語化が促される
+nishio profile image	
+nisbot
+BOT
+午後4:29
+チャットログとパターンの関係は何ですか？
+nishio profile image	
+nishio
+午後4:30
+チャットログがたくさん集まるとその中から未知の有益なパターンが発見される
+nishio profile image	
+nisbot
+BOT
+午後4:30
+そのチャットログは、どこにありますか？
+nishio profile image	
+nishio
+午後4:31
+わりととっ散らかってるんだけど、それをScrapboxとかにまとめていくと良いのかな、と。
+nishio profile image	
+nisbot
+BOT
+午後4:31
+チャットログと、パターンとは同じですか？違いますか？
+nishio profile image	
+nishio
+午後4:31
+チャットログは具体的な現象で、その具体的な現象から抽出された抽象概念がパターン
+nishio profile image	
+nisbot
+BOT
+午後4:31
+そのチャットログは、どのあたりにありますか？
+nishio profile image	
+nishio
+午後4:32
+今は散らばってる
+nishio profile image	
+nisbot
+BOT
+午後4:32
+チャットログは具体的な現象で、その具体的な現象から抽出された抽象概念がパターン
+あなたはこのチャットログをどう知るのですか？
+nishio profile image	
+nishio
+午後4:35
+Scrapboxにまとめて掲載した上で、ブラケティングしたり、「なるほど」の手前をピックアップしたりすると、後から関係が発見される、Scrapboxは予期せぬ関係の発見に強い知的生産ツール
+nishio profile image	
+nisbot
+BOT
+午後4:35
+そのScrapboxとチャットログの関係は何ですか？
+nishio profile image	
+nishio
+午後4:42
+チャットログが単に元の形のまま蓄積されるだけではなく、Scrapboxの上で刻まれていくことによって、ログをまたいだ関連が発見されやすくなる
+nishio profile image	
+nisbot
+BOT
+午後4:42
+そのチャットログと、Scrapboxとは同じですか？違いますか？
+nishio profile image	
+nishio
+午後4:42
+Scrapboxにチャットログを置く
+nishio profile image	
+nisbot
+BOT
+午後4:42
+そのチャットログは、何のようですか？
+nishio profile image	
+nishio
+午後4:42
+生の観測データ
+nishio profile image	
+nisbot
+BOT
+午後4:42
+チャットログの時、Scrapboxに何が起こりますか？
+nishio profile image	
+nishio
+午後4:44
+いまScrapboxにたまに「思考の結節点」ってタイトルでつらつら書いたものを載せてて、この中のキーワードをブラケティングすることでいろいろなページの接続をする役割を果たしている、これに似たものが追加されることでScrapboxの知識ネットワークとしての性質は改善される
+nishio profile image	
+nisbot
+BOT
+午後4:44
+そのScrapboxの時、チャットログに何が起こりますか？
+nishio profile image	
+nishio
+午後4:45
+Scrapboxの関係発見効果で、チャットログの間の関連が発見される、前にも似た話をしたよな、とかが自動でリンクされる
+nishio profile image	
+nisbot
+BOT
+午後4:45
+そのチャットログとScrapboxの間には何がありますか？
+nishio profile image	
+nishio
+午後4:45
+相乗効果
+nishio profile image	
+nisbot
+BOT
+午後4:45
+チャットログの時、パターンに何が起こりますか？
+nishio profile image	
+nishio
+午後4:45
+パターンが発見される
+nishio profile image	
+nisbot
+BOT
+午後4:45
+そのパターンの時、チャットログに何が起こりますか？
+nishio profile image	
+nishio
+午後4:46
+チャットシステム自体の改善につながる
+nishio profile image	
+nisbot
+BOT
+午後4:46
+チャットログとパターンの間には何がありますか？
+nishio profile image	
+nishio
+午後4:47
+抽象的なパターンは理解しにくいが、具体的なログとセットになることで良い効果がある
+nishio profile image	
+nisbot
+BOT
+午後4:47
+そのパターンとScrapboxの関係は何ですか？
+nishio profile image	
+nishio
+午後4:47
+Scrapboxはパターン発見支援システムといえる
+nishio profile image	
+nisbot
+BOT
+午後4:47
+そのScrapboxと、パターンとは同じですか？違いますか？
+nishio profile image	
+nishio
+午後4:47
+Scrapbox上に事後的にパターンが生まれるのだ
+nishio profile image	
+nisbot
+BOT
+午後4:47
+あなたはそのパターンをどう知るのですか？
+nishio profile image	
+nishio
+午後4:48
+「おっ、これパターンじゃん」ってなる
+nishio profile image	
+nisbot
+BOT
+午後4:48
+そのパターンは、何のようですか？
+nishio profile image	
+nishio
+午後4:48
+Scrapboxに置いてる「盲点カード」みたい
+nishio profile image	
+nisbot
+BOT
+午後4:48
+そのScrapboxは、どのあたりにありますか？
+nishio profile image	
+nishio
+午後4:48
+バイバイ

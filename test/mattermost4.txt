@@ -1,0 +1,371 @@
+	
+nishio
+午前0:52
+
+
+
+話そう
+nishio profile image	
+nisbot
+BOT
+午前0:53
+あなたはこの会話で何が起きて欲しいですか？
+nishio profile image	
+nishio
+午前0:53
+噛み砕きタスクって具体的には何をすれば良いの？
+nishio profile image	
+nisbot
+BOT
+午前0:53
+その噛み砕きタスクについて、他に何かありますか？
+nishio profile image	
+nishio
+午前0:53
+アイデアを噛み砕いて実行可能なアクションにする
+nishio profile image	
+nisbot
+BOT
+午前0:53
+そのアクションについて、他に何かありますか？
+nishio profile image	
+nishio
+午前0:54
+これがわからない状態の時に、どうすればわかるようになるのか？
+nishio profile image	
+nisbot
+BOT
+午前0:54
+その状態について、他に何かありますか？
+nishio profile image	
+nishio
+午前0:55
+プロジェクトから離れてしばらく経ってるから、いろいろなことを忘れてると思う
+nishio profile image	
+nisbot
+BOT
+午前0:55
+そのプロジェクトについて、他に何かありますか？
+nishio profile image	
+nishio
+午前0:56
+プロジェクトに関するドキュメントがあまり残ってない
+nishio profile image	
+nisbot
+BOT
+午前0:56
+そのプロジェクトは、どんな種類のプロジェクトですか？
+nishio profile image	
+nishio
+午前0:56
+ある程度の形にした後、放置されていたプロジェクト
+nishio profile image	
+nisbot
+BOT
+午前0:56
+そのプロジェクトは、どこにありますか？
+nishio profile image	
+nishio
+午前0:56
+どこかのリポジトリにある
+nishio profile image	
+nisbot
+BOT
+午前0:56
+そのリポジトリについて、他に何かありますか？
+nishio profile image	
+nishio
+午前0:57
+ドキュメント書くべきだし、もしかしたら書いてあるかもしれないな
+nishio profile image	
+nisbot
+BOT
+午前0:57
+ある程度の形にした後、放置されていたプロジェクト
+このプロジェクトは、どのあたりにありますか？
+nishio profile image	
+nishio
+午前0:57
+NG
+nishio profile image	
+nisbot
+BOT
+午前0:57
+そのドキュメントは、どんな種類のドキュメントですか？
+nishio profile image	
+nishio
+午前0:58
+本当は、プロジェクトの内部の構造が記述されてて、それを読んだら新しい改善をする時にどこをいじれば良いかわかるのが理想
+nishio profile image	
+nisbot
+BOT
+午前0:58
+あなたはそのプロジェクトをどう知るのですか？
+nishio profile image	
+nishio
+午前0:58
+ドキュメントがあればそれを読めばいいんだけど、ないんだよね
+nishio profile image	
+nisbot
+BOT
+午前0:58
+そのドキュメントについて、他に何かありますか？
+nishio profile image	
+nishio
+午前0:59
+ソースコードを読みながら今から作るしかないか
+nishio profile image	
+nisbot
+BOT
+午前0:59
+そのソースコードは、どんな種類のソースコードですか？
+nishio profile image	
+nishio
+午前0:59
+いろいろ実験をしながら作ったので奇怪な形をしてると思う
+nishio profile image	
+nisbot
+BOT
+午前0:59
+その形について、他に何かありますか？
+nishio profile image	
+nishio
+午前1:00
+リファクタリングするのが良いのかもな
+nishio profile image	
+nisbot
+BOT
+午前1:00
+ドキュメントがあればそれを読めばいいんだけど、ないんだよね
+あなたはこのドキュメントをどう知るのですか？
+nishio profile image	
+nishio
+午前1:00
+先日聞いた話としては、ソースコードに単語頻度解析をかけてそこからモデルを起こすと良さそう
+nishio profile image	
+nisbot
+BOT
+午前1:00
+そのソースコードについて、他に何かありますか？
+nishio profile image	
+nishio
+午前1:01
+まずはドキュメントがあるのか確認して、ソースコードを読んでみなければ、具体的アクションに噛み砕けないか
+nishio profile image	
+nisbot
+BOT
+午前1:01
+そのドキュメントは、どのあたりにありますか？
+nishio profile image	
+nishio
+午前1:02
+あるか、ないかわからないので確認する、これが最初のタスク
+nishio profile image	
+nisbot
+BOT
+午前1:02
+そのタスクについて、他に何かありますか？
+nishio profile image	
+nishio
+午前1:02
+なければソースコードに単語頻度解析をかけるのが次のタスク
+nishio profile image	
+nisbot
+BOT
+午前1:02
+そのタスクは、どんな種類のタスクですか？
+nishio profile image	
+nishio
+午前1:02
+ソースコードの大まかなモデルを作るタスクだ
+nishio profile image	
+nisbot
+BOT
+午前1:02
+あなたはそのソースコードをどう知るのですか？
+nishio profile image	
+nishio
+午前1:04
+読んで、機能を理解して、それから将来のリファクタリングに備えて理解した機能をテストコードにすると良い
+nishio profile image	
+nisbot
+BOT
+午前1:04
+そのリファクタリングについて、他に何かありますか？
+nishio profile image	
+nishio
+午前1:06
+機能追加とは分けて実行すべき。リファクタリングが先で良い。なんかそれを表現した格言があったような…
+nishio profile image	
+nisbot
+BOT
+午前1:06
+そのリファクタリングは、どんな種類のリファクタリングですか？
+nishio profile image	
+nishio
+午前1:08
+コードの挙動を変えずに、絡まったコードを綺麗な構造にして、新しい修正をやる時に悩まなくてもできるような形にすること
+nishio profile image	
+nisbot
+BOT
+午前1:08
+その構造について、他に何かありますか？
+nishio profile image	
+nishio
+午前1:08
+シンプルにする
+nishio profile image	
+nisbot
+BOT
+午前1:08
+ソースコードの大まかなモデルを作るタスクだ
+このソースコードは、どこにありますか？
+nishio profile image	
+nishio
+午前1:08
+NG
+nishio profile image	
+nisbot
+BOT
+午前1:08
+まずはドキュメントがあるのか確認して、ソースコードを読んでみなければ、具体的アクションに噛み砕けないか
+このドキュメントは、何のようですか？
+nishio profile image	
+nishio
+午前1:09
+地図だ。どこへ行けば良いのかを指し示す大まかなガイドだ
+nishio profile image	
+nisbot
+BOT
+午前1:09
+あなたが価値を感じているのは何ですか？
+nishio profile image	
+nishio
+午前1:09
+ガイドがあればネクストアクションを決めるコストが下がる。これは価値だ。
+nishio profile image	
+nisbot
+BOT
+午前1:09
+そのガイドは、どんな種類のガイドですか？
+nishio profile image	
+nishio
+午前1:10
+ソースコード全体を読み直して理解し直さなくても、どこをどう修正したら良いかがわかるガイド
+nishio profile image	
+nisbot
+BOT
+午前1:10
+そのガイドについて、他に何かありますか？
+nishio profile image	
+nishio
+午前1:10
+書籍の目次みたいなもの
+nishio profile image	
+nisbot
+BOT
+午前1:10
+プロジェクトとソースコードの関係は何ですか？
+nishio profile image	
+nishio
+午前1:12
+ソースコードは適切に更新されていくことで、脱皮を繰り返す蛇のように成長を続けていく、この生きているシステムがプロジェクト
+nishio profile image	
+nisbot
+BOT
+午前1:12
+そのプロジェクトと、ソースコードとは同じですか？違いますか？
+nishio profile image	
+nishio
+午前1:13
+例えていうなら人間と肉体は同じか？って言ってるようなもので、死んだ人間も生きてる人間と同じ肉体を持っている
+nishio profile image	
+nisbot
+BOT
+午前1:13
+プロジェクトの時、ソースコードに何が起こりますか？
+nishio profile image	
+nishio
+午前1:13
+更新される
+nishio profile image	
+nisbot
+BOT
+午前1:13
+ソースコードの時、プロジェクトに何が起こりますか？
+nishio profile image	
+nishio
+午前1:14
+新しいアイデアとかユーザの反応とかニーズとか、ソースコード以外の成長の糧がソースコードを動かすことによって生まれる
+nishio profile image	
+nisbot
+BOT
+午前1:14
+そのソースコードとプロジェクトの間には何がありますか？
+nishio profile image	
+nishio
+午前1:16
+その話は置いといて「噛み砕きタスクって具体的には何をすれば良いの？」に関しては、まずドキュメントがないか確認する、次にソースコードの単語頻度解析をする、ガイドになるようなドキュメントをつくる、ソースコードを読んで理解しテストを書く、リファクタリングする、機能追加する、という流れでよいかな？
+nishio profile image	
+nisbot
+BOT
+午前1:16
+そのガイドとプロジェクトの関係は何ですか？
+nishio profile image	
+nishio
+午前1:17
+プロジェクトの内容を知らない人や忘れた人がプロジェクトに参加しやすくするドキュメント。あ、そうか、先日の「一人のプロジェクトが複数人のプロジェクトになるとよい」に関係してくるのだな
+nishio profile image	
+nisbot
+BOT
+午前1:17
+そのプロジェクトとドキュメントの関係は何ですか？
+nishio profile image	
+nishio
+午前1:17
+他人を巻き込むためにはドキュメントが必要、と。
+nishio profile image	
+nisbot
+BOT
+午前1:17
+そのドキュメントと、プロジェクトとは同じですか？違いますか？
+nishio profile image	
+nishio
+午前1:18
+ある意味、プロジェクトが続いていくためにはソースコードよりドキュメントの方が大事？
+nishio profile image	
+nisbot
+BOT
+午前1:18
+そのプロジェクトの時、ドキュメントに何が起こりますか？
+nishio profile image	
+nishio
+午前1:19
+アイデアを思いついた段階から、具体的にプロジェクトが進むにつれて、ドキュメントも具体的になる。
+nishio profile image	
+nisbot
+BOT
+午前1:19
+そのドキュメントの時、プロジェクトに何が起こりますか？
+nishio profile image	
+nishio
+午前1:20
+で、ドキュメントはプロジェクトが生き続けるための支えになるのだな
+nishio profile image	
+nisbot
+BOT
+午前1:20
+そのプロジェクトは、何のようですか？
+nishio profile image	
+nishio
+午前1:20
+生物っぽい
+nishio profile image	
+nisbot
+BOT
+午前1:21
+プロジェクトとドキュメントの間には何がありますか？
+nishio profile image	
+nishio
+午前1:21
+バイバイ
