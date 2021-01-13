@@ -122,6 +122,8 @@ def calc_split_priority(tokens):
             t.split_priority = 100
         elif t.feature.startswith("助詞,接続助詞") or t.word == "たら":
             t.split_priority = 80
+            if i >= 2 and tokens[i - 2].word == "て" and t.word == "て":
+                t.split_priority = 90
         elif t.feature.startswith("助詞,係助詞"):
             t.split_priority = 60
         elif t.feature.startswith("助詞,格助詞"):
