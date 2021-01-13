@@ -171,14 +171,14 @@ def initiate_regression_test():
 def regression_test():
     import json
     result = json.load(open("test/regression_test.json"))
-    for i, line in enumerate(open("test/simplelines1.txt")):
-        line = line.strip()
+    for r in result:
+        line = r["input"]
         tokens = tokenize(line)
         calc_split_priority(tokens)
         splits = [
             concat_tokens(ts) for ts in split(tokens)]
 
-        expected = result[i]["splits"]
+        expected = r["splits"]
         if expected != splits:
             print(">", line)
             print("expect:", expected)
