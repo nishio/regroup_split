@@ -156,7 +156,7 @@ def initiate_regression_test():
         obj = {
             "input": line,
             "splits": [
-                concat_tokens(ts) for ts in split1(tokens)],
+                concat_tokens(ts) for ts in split(tokens)],
             "comment": ""
         }
         result.append(obj)
