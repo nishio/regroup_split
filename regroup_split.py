@@ -17,10 +17,6 @@ for line in _TAIL_TOKENS_TO_REMOVE:
     ts = line.split()
     TAIL_TOKENS_TO_REMOVE[len(ts)].append(ts)
 
-REPLACE = """
-の か ？ : ？
-"""
-
 
 def remove_head(tokens):
     """
