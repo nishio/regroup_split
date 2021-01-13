@@ -122,6 +122,9 @@ def calc_split_priority(tokens):
             t.split_priority = 80
             if i >= 2 and tokens[i - 2].word == "て" and t.word == "て":
                 t.split_priority = 90
+            elif t.word == "て":
+                t.split_priority = 50
+
         elif t.feature.startswith("助詞,係助詞"):
             t.split_priority = 60
         elif t.feature.startswith("助詞,格助詞"):
@@ -183,7 +186,8 @@ def regression_test():
             print("actual:", splits)
 
 
-def update_regression_test():
+def add_regression_test():
+    "add new tests from simplelines1.txt"
     import json
     result = json.load(open("test/regression_test.json"))
     lines = open("test/simplelines1.txt").readlines()
@@ -198,6 +202,26 @@ def update_regression_test():
             "comment": ""
         }
         result.append(obj)
+    json.dump(
+        result,
+        open("test/regression_test.json", "w"),
+        ensure_ascii=False,
+        indent=2
+    )
+
+
+def update_regression_test():
+    "record current output as expected"
+    import json
+    result = json.load(open("test/regression_test.json"))
+    for r in result:
+        line = r["input"]
+        tokens = tokenize(line)
+        calc_split_priority(tokens)
+        splits = [
+            concat_tokens(ts) for ts in split(tokens)]
+
+        r["splits"] = splits
     json.dump(
         result,
         open("test/regression_test.json", "w"),
