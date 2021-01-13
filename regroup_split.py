@@ -181,7 +181,7 @@ def regression_test():
         expected = result[i]["splits"]
         if expected != splits:
             print(">", line)
-            print("expected:", expected)
+            print("expect:", expected)
             print("actual:", splits)
 
 
